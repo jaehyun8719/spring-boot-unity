@@ -1,7 +1,0 @@
-spring:
-  main:
-    allow-bean-definition-overriding: true
-
-truthman:
-  name: jaehyun22
-  how-long: 23
