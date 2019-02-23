@@ -12,7 +12,6 @@
 
     <modules>
         <module>autoConfiguration</module>
-        <module>starter</module>
     </modules>
 
     <packaging>pom</packaging>
