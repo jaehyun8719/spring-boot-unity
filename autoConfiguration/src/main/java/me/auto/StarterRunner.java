@@ -1,6 +1,5 @@
-package me.starter;
+package me.auto;
 
-import auto.truth.model.Truthman;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
