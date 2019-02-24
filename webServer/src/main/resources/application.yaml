@@ -1,0 +1,6 @@
+server:
+  port: 8443
+#  ssl:
+#    key-store: keystore.jks
+#    key-store-password: secret
+#    key-password: another-secret
