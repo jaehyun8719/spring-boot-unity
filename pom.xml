@@ -12,6 +12,7 @@
 
     <modules>
         <module>autoConfiguration</module>
+        <module>webServer</module>
     </modules>
 
     <packaging>pom</packaging>
