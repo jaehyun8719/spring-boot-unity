@@ -20,7 +20,7 @@ public class SampleListener implements ApplicationListener<ApplicationStartingEv
     public void onApplicationEvent(ApplicationStartingEvent applicationStartingEvent) {
 
         System.out.println("=====================");
-        System.out.println("Application Start");
+        System.out.println("Application Start Go");
         System.out.println("=====================");
     }
 }
