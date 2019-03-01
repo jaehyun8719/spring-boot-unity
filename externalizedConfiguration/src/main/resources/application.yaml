@@ -1,0 +1,5 @@
+jaehyun:
+  name: jaehyun
+  age: ${random.int(10)}
+  fullName: ${jaehyun.name} Kim
+  sessionTimeout: 600
