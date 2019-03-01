@@ -14,7 +14,7 @@ import org.springframework.context.ApplicationListener;
  * Description:
  * Copyright(©) 2019 by jaehyun.
  **/
-public class SampleLisner implements ApplicationListener<ApplicationStartingEvent> {
+public class SampleListener implements ApplicationListener<ApplicationStartingEvent> {
 
     @Override
     public void onApplicationEvent(ApplicationStartingEvent applicationStartingEvent) {

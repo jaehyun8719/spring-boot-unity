@@ -10,7 +10,7 @@ public class InitApplication {
     public static void main(String[] args) {
 
         SpringApplication app = new SpringApplication(InitApplication.class);
-        app.addListeners(new SampleLisner());
+        app.addListeners(new SampleListener());
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
     }
