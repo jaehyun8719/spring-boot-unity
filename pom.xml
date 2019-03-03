@@ -15,7 +15,7 @@
         <module>webServer</module>
         <module>init</module>
         <module>externalizedConfiguration</module>
-        <module>profile</module>
+        <module>test</module>
     </modules>
 
     <packaging>pom</packaging>
