@@ -1,5 +1,7 @@
 package me.externalconfig;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -19,16 +21,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class ExternalRunner implements ApplicationRunner {
 
+    private Logger logger = LoggerFactory.getLogger(ExternalRunner.class);
+
     @Autowired
     JaehyunProperties jaehyunProperties;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
-        System.out.println("===========================");
-        System.out.println(jaehyunProperties.getFullName());
-        System.out.println(jaehyunProperties.getAge());
-        System.out.println(jaehyunProperties.getSessionTimeout());
-        System.out.println("===========================");
+        logger.debug("=======================");
+        logger.debug(jaehyunProperties.getFullName());
+        logger.debug("=======================");
     }
 }
