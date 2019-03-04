@@ -16,6 +16,7 @@
         <module>init</module>
         <module>externalizedConfiguration</module>
         <module>test</module>
+        <module>webmvn</module>
     </modules>
 
     <packaging>pom</packaging>
