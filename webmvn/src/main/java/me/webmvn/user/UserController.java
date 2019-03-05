@@ -18,12 +18,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @GetMapping
+    @GetMapping("/user")
     public String hello() {
         return "hello";
     }
 
-    @PostMapping
+    @PostMapping("/user/create")
     public User create(@RequestBody User user) {
         return user;
     }
