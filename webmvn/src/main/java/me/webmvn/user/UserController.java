@@ -1,9 +1,6 @@
 package me.webmvn.user;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by IntelliJ IDEA.
@@ -19,12 +16,27 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping("/user")
-    public String hello() {
+    public String user() {
         return "hello";
     }
 
     @PostMapping("/user/create")
     public User create(@RequestBody User user) {
         return user;
+    }
+
+    @GetMapping("/hello")
+    public @ResponseBody String hello() {
+        throw new SampleException();
+    }
+
+    @ExceptionHandler(SampleException.class)
+    public AppError SampleError(SampleException e) {
+
+        AppError appError = new AppError();
+        appError.setMessage("error.app.key");
+        appError.setReason("why?");
+
+        return appError;
     }
 }
