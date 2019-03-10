@@ -19,6 +19,7 @@
         <module>webmvn</module>
         <module>security</module>
         <module>actuator</module>
+        <module>adminmonitor</module>
     </modules>
 
     <packaging>pom</packaging>
