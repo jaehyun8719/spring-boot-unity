@@ -46,20 +46,20 @@ public class SampleControllerTest {
     @Test
     public void hello() {
 
-        when(mockSampleService.getName()).thenReturn("jaehyun");
+        when(mockSampleService.getName()).thenReturn("jaehyun222");
 
         String result = testRestTemplate.getForObject("/hello", String.class);
-        assertThat(result).isEqualTo("hello jaehyun");
+        assertThat(result).isEqualTo("hello jaehyun222");
     }
 
     @Test
     public void hello2() {
 
-        when(mockSampleService.getName()).thenReturn("jaehyun");
+        when(mockSampleService.getName()).thenReturn("jaehyun222");
 
         webTestClient.get().uri("/hello").exchange()
                 .expectStatus().isOk()
-                .expectBody(String.class).isEqualTo("hello jaehyun");
+                .expectBody(String.class).isEqualTo("hello jaehyun222");
 
         assertThat(outputCapture.toString())
                 .contains("abc")
