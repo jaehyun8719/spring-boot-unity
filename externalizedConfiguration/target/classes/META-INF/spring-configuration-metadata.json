@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "name": "jaehyun",
+      "type": "me.externalconfig.JaehyunProperties",
+      "sourceType": "me.externalconfig.JaehyunProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jaehyun.age",
+      "type": "java.lang.Integer",
+      "sourceType": "me.externalconfig.JaehyunProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "jaehyun.full-name",
+      "type": "java.lang.String",
+      "sourceType": "me.externalconfig.JaehyunProperties"
+    },
+    {
+      "name": "jaehyun.name",
+      "type": "java.lang.String",
+      "sourceType": "me.externalconfig.JaehyunProperties"
+    },
+    {
+      "name": "jaehyun.session-timeout",
+      "type": "java.time.Duration",
+      "sourceType": "me.externalconfig.JaehyunProperties",
+      "defaultValue": "30s"
+    }
+  ],
+  "hints": []
+}
