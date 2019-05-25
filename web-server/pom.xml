@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.webserver</groupId>
-    <artifactId>webserver</artifactId>
+    <artifactId>web-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>webserver</name>
+    <name>web-server</name>
     <description>WebServer for Spring Boot</description>
 
     <properties>
