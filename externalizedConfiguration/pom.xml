@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.externalconfig</groupId>
-    <artifactId>externalized-configuration</artifactId>
+    <artifactId>externalizedConfiguration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>externalized-configuration</name>
+    <name>externalconfig</name>
     <description>ExternalConfig for Spring Boot</description>
 
     <properties>

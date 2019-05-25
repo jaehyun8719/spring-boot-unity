@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.springboot</groupId>
-    <artifactId>spring-boot-unity</artifactId>
+    <artifactId>SpringBootUnity</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -11,12 +11,12 @@
     </properties>
 
     <modules>
-        <module>auto-configuration</module>
-        <module>web-server</module>
+        <module>autoConfiguration</module>
+        <module>webServer</module>
         <module>init</module>
-        <module>externalized-configuration</module>
+        <module>externalizedConfiguration</module>
         <module>test</module>
-        <module>web-mvn</module>
+        <module>webmvn</module>
         <module>security</module>
         <module>actuator</module>
         <module>adminmonitor</module>

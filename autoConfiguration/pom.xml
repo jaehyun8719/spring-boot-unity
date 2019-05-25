@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.auto</groupId>
-    <artifactId>auto-configuration</artifactId>
+    <artifactId>autoConfiguration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>auto-configuration</name>
+    <name>autoConfiguration</name>
     <description>AutoConfiguration for Spring Boot</description>
 
     <properties>
