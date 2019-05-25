@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.webmvn</groupId>
-    <artifactId>webmvn</artifactId>
+    <artifactId>web-mvn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>webmvn</name>
+    <name>web-mvn</name>
     <description>Web MVC for Spring Boot</description>
 
     <properties>

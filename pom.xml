@@ -11,12 +11,12 @@
     </properties>
 
     <modules>
-        <module>autoConfiguration</module>
-        <module>webServer</module>
+        <module>auto-configuration</module>
+        <module>web-server</module>
         <module>init</module>
-        <module>externalizedConfiguration</module>
+        <module>externalized-configuration</module>
         <module>test</module>
-        <module>webmvn</module>
+        <module>web-mvn</module>
         <module>security</module>
         <module>actuator</module>
         <module>adminmonitor</module>
