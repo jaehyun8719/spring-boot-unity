@@ -1,6 +1,8 @@
 package me.auto;
 
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
@@ -14,26 +16,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * Description:
  * Copyright(©) 2019 by jaehyun.
  **/
+@Getter @Setter
 @ConfigurationProperties("truthman")
 public class TruthmanProperties {
 
     private String name;
 
     private int howLong;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getHowLong() {
-        return howLong;
-    }
-
-    public void setHowLong(int howLong) {
-        this.howLong = howLong;
-    }
 }

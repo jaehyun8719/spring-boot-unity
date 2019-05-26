@@ -1,5 +1,9 @@
 package me.auto;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 /**
  * Created by IntelliJ IDEA.
  *
@@ -11,33 +15,11 @@ package me.auto;
  * Description:
  * Copyright(©) 2019 by jaehyun.
  **/
+@Getter @Setter @ToString
 public class Truthman {
 
     private String name;
 
     private int howLong;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getHowLong() {
-        return howLong;
-    }
-
-    public void setHowLong(int howLong) {
-        this.howLong = howLong;
-    }
-
-    @Override
-    public String toString() {
-        return "Truthman{" +
-                "name='" + name + '\'' +
-                ", howLong=" + howLong +
-                '}';
-    }
 }
