@@ -1,6 +1,5 @@
 package me.stater;
 
-import lombok.AllArgsConstructor;
 import me.auto.Truthman;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -18,7 +17,6 @@ import org.springframework.stereotype.Component;
  * Copyright(©) 2019 by jaehyun.
  */
 @Component
-@AllArgsConstructor
 public class StarterRunner implements ApplicationRunner {
 
     @Autowired
