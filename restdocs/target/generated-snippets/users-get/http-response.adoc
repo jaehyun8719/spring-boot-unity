@@ -1,0 +1,20 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Length: 264
+Content-Type: application/hal+json;charset=UTF-8
+
+{
+  "id" : "jaehyun",
+  "email" : "jaehyun@mail.com",
+  "address" : "Seoul",
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/users/jaehyun"
+    },
+    "profile" : {
+      "href" : "docs/index.html#resources-user-get"
+    }
+  }
+}
+----

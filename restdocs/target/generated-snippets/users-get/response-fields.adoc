@@ -1,0 +1,24 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+String+`
+|사용자 아이디
+
+|`+email+`
+|`+String+`
+|사용자 이메일
+
+|`+address+`
+|`+String+`
+|사용자 주소
+
+|`+_links.self.href+`
+|`+String+`
+|link to self
+
+|`+_links.profile.href+`
+|`+String+`
+|link to self profile
+
+|===

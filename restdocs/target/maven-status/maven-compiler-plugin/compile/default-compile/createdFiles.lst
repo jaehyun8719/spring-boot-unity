@@ -1,0 +1,5 @@
+me\restdocs\users\UserResource.class
+me\restdocs\users\UserController.class
+me\restdocs\users\User$UserBuilder.class
+me\restdocs\RestdocsApplication.class
+me\restdocs\users\User.class

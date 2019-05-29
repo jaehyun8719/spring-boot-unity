@@ -1,0 +1,10 @@
+|===
+|Relation|Description
+
+|`+self+`
+|link to self
+
+|`+profile+`
+|link to profile
+
+|===
