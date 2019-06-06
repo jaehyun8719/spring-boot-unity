@@ -1,7 +1,12 @@
 server:
   port: 8443
-#  ssl:
-#    key-store: keystore.jks
-#    key-store-password: secret
-#    key-password: another-secret
 
+  ssl:
+    key-store: web-server/keystore.p12
+    key-store-type: PKCS12
+    key-store-password: dmasi8719!
+    key-alias: spring
+
+#spring:
+#  main:
+#    web-application-type: none

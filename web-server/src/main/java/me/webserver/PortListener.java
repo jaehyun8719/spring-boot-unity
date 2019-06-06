@@ -12,18 +12,15 @@ import org.springframework.stereotype.Component;
  * github: https://github.com/jaehyun8719
  * email: jaehyun8719@gmail.com
  * <p>
- * Date: 2019-02-24
+ * Date: 2019-06-06
  * Copyright(©) 2019 by jaehyun.
  */
 @Component
 public class PortListener implements ApplicationListener<ServletWebServerInitializedEvent> {
 
-
     @Override
     public void onApplicationEvent(ServletWebServerInitializedEvent servletWebServerInitializedEvent) {
-
         ServletWebServerApplicationContext applicationContext = servletWebServerInitializedEvent.getApplicationContext();
-
         System.out.println(applicationContext.getWebServer().getPort());
     }
 }
