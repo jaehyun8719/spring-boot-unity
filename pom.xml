@@ -23,6 +23,7 @@
         <module>logback</module>
         <module>starter</module>
         <module>restdocs</module>
+        <module>mybatis</module>
     </modules>
 
     <packaging>pom</packaging>
