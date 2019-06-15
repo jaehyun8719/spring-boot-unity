@@ -33,7 +33,7 @@ public class UserController {
      * @return
      */
     @GetMapping("/{id}")
-    public ResponseEntity getApi(@PathVariable int id) {
+    public ResponseEntity getUserInfo(@PathVariable int id) {
         User user = userService.getUserInfo(id);
         log.debug("users {}", user);
 
