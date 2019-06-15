@@ -5,7 +5,7 @@
     <select id="getUserInfo" resultType="me.mybatis.User">
         SELECT
             ID
-            , NAME
+            , FULL_NAME
         FROM
             USER
         WHERE
