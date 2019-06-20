@@ -1,1 +1,6 @@
+spring:
+  security:
+    user:
+      name: jaehyun
+      password: 1234
 
